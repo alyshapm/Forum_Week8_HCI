@@ -1,5 +1,3 @@
-// note: the following code does not work for numbers above 35 i.e. any number above 35, after subtraction, will yield the corresponding lower case alphabet. 
-
    // insert key below
 var myInt = 1939;
     // insert eMessage below.
