@@ -3,14 +3,18 @@ var costPerStep = [10, 15, 20];
 getLowestCost(costPerStep)
 
 function getLowestCost(costPerStep) {
-
+    // x and y are starting point, prior to taking a step
     var x = 0;
     var y = 0;
 
+    // control flow
     for (var i = 0; i <= costPerStep.length-1; i++) {
-        var z = costPerStep[i] + Math.min(x, y);
+        var w = costPerStep[i] + Math.min(x, y);
+        // the previous value is assigned to the second starting index
         y = x;
-        x = z;
+        // the new value is assigned to the first index
+        x = w;
+        console.log(w, x, y);
     }
 
     // from last loop, det min of x and y
