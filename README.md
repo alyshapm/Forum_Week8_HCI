@@ -4,7 +4,7 @@ Alysha Maulidina - 2502005906 - L1BC
 
 Contains the solutions for HCI forum week 8.
 
-- Alysha_BloodTest_ForumHCI: Write a function that takes in a donor's and receiver's blood types as strings and returns whether or not the donor can safely give blood to the receiver, according to the rules above.
+- <a><href ="https://github.com/alyshapm/Forum_Week8_HCI/blob/main/Alysha_BloodType_ForumHCI.js">Alysha_BloodTest_ForumHCI</a>: Write a function that takes in a donor's and receiver's blood types as strings and returns whether or not the donor can safely give blood to the receiver, according to the rules above.
 
 - Alysha_DigitalDecipher_ForumHCI: Create a function that takes two arguments; a positive integer and an array of integers and returns a decoded message as string.
 
