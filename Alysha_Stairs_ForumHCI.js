@@ -1,7 +1,10 @@
+// insert array, where each element represents one step and its cost
 var costPerStep = [10, 15, 20];
 
+// calling the function
 getLowestCost(costPerStep)
 
+// function determines the minimum cost possible
 function getLowestCost(costPerStep) {
     // x and y are starting point, prior to taking a step
     var x = 0;
