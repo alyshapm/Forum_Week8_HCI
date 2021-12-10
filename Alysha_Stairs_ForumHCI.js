@@ -1,5 +1,5 @@
 // insert array, where each element represents one step and its cost
-var costPerStep = [10, 15, 20];
+var costPerStep = [10, 15, 20]; // output: 15
 
 // calling the function
 getLowestCost(costPerStep)
